@@ -16,7 +16,6 @@ My objective of this Power BI project was to analyze smartphone retail sales dat
 ## Data Loading and Cleaning
 The data loading and cleaning process for this project was done using Power Query. **Let’s take a view of the original dataset**
 ![Picture9](https://github.com/elizabethwanjiku703/Smartphone-Retail-Sales-Data-Analysis-Power-BI-/assets/66907478/a1675e5d-bddb-4635-979e-870fb4683113)
-
 Power Query is a data transformation and data preparation tool that allows you to connect, combine, and refine data from various sources before loading it into Power BI for analysis.
 To load the dataset into Power BI, follow these steps:
    - Click on “Get Data” in the Home tab.
@@ -25,8 +24,20 @@ To load the dataset into Power BI, follow these steps:
    - Open the file and select the desired sheet or table.
    - Apply any necessary data cleaning and transformation steps using Power Query.
 ![Picture1](https://github.com/elizabethwanjiku703/Smartphone-Retail-Sales-Data-Analysis-Power-BI-/assets/66907478/761ceffe-2f1e-476e-ac0a-a22ede822b95)
-
-
+   - I loaded the cleaned dataset (above table) into Power BI for analysis
+## Adding Columns
+After cleaning and removing the unwanted column, I added the following Columns using the following DAX Formulas (See the Table below):
+``` 
+1. Day of Week = WEEKDAY('SMARTPHONE RETAIL OUTLET SALE DATA'[Date],2)
+2. Day of Week Name = SWITCH('SMARTPHONE RETAIL OUTLET SALE DATA'[Day of Week],
+    1, "Monday",
+    2, "Tuesday",
+    3, "Wednesday",
+    4, "Thursday",
+    5, "Friday",
+    6, "Saturday",
+    7, "Sunday"
+)
 
 
 

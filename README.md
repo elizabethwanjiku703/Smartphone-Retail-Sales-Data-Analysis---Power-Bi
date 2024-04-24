@@ -13,3 +13,5 @@ My objective of this Power BI project was to analyze smartphone retail sales dat
 4. Which fiscal year brought the highest revenue?
 5. Which month and week experienced the highest sales?
 6. What were the top 5 products that generated the highest sales for the fiscal year?
+## Data Loading and Cleaning
+The data loading and cleaning process for this project was done using Power Query. **Let’s take a view of the original dataset**

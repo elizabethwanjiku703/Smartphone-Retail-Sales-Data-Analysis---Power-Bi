@@ -25,11 +25,11 @@ To load the dataset into Power BI, follow these steps:
    - Choose the downloaded dataset file.
    - Open the file and select the desired sheet or table.
    - Apply any necessary data cleaning and transformation steps using Power Query.
-   - 
+     
 ![Picture1](https://github.com/elizabethwanjiku703/Smartphone-Retail-Sales-Data-Analysis-Power-BI-/assets/66907478/761ceffe-2f1e-476e-ac0a-a22ede822b95)
 
    - I loaded the cleaned dataset (above table) into Power BI for analysis
-   - 
+     
 ## Adding Columns
 After cleaning and removing the unwanted column, I added the following Columns using the following DAX Formulas (See the Table below):
         
@@ -68,7 +68,7 @@ Products Sold= COUNT('SMARTPHONE RETAIL OUTLET SALE DATA'[Product Number])
 The total sales for the period were $123.64 million. The profit generated during this time was $117.47 million, and the revenue reached $119.85 million. The total number of products sold was 6,421. These figures provide a snapshot of the financial performance, indicating strong sales and profitability for the given fiscal year period.
 
    2. Which payment type was predominantly used by customers?
-   3. 
+      
 ![2](https://github.com/elizabethwanjiku703/Smartphone-Retail-Sales-Data-Analysis-Power-BI-/assets/66907478/0b7f86de-c340-4364-954e-494a028facd4)
 
 In the provided image, a clustered bar chart was utilized to depict the total transactions. The design approach adopted for this visualization followed the comprehensive and instructive guideline presented by @Bas on his YouTube channel, [“How to Power BI”](https://www.youtube.com/@HowtoPowerBI). I highly recommend checking out his channel as it offers valuable insights on design principles and other aspects pertaining to Power BI.

@@ -24,3 +24,18 @@ To load the dataset into Power BI, follow these steps:
    - Choose the downloaded dataset file.
    - Open the file and select the desired sheet or table.
    - Apply any necessary data cleaning and transformation steps using Power Query.
+![Picture1](https://github.com/elizabethwanjiku703/Smartphone-Retail-Sales-Data-Analysis-Power-BI-/assets/66907478/761ceffe-2f1e-476e-ac0a-a22ede822b95)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

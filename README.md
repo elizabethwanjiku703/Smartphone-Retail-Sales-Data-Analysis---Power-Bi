@@ -15,3 +15,12 @@ My objective of this Power BI project was to analyze smartphone retail sales dat
 6. What were the top 5 products that generated the highest sales for the fiscal year?
 ## Data Loading and Cleaning
 The data loading and cleaning process for this project was done using Power Query. **Let’s take a view of the original dataset**
+![Picture9](https://github.com/elizabethwanjiku703/Smartphone-Retail-Sales-Data-Analysis-Power-BI-/assets/66907478/a1675e5d-bddb-4635-979e-870fb4683113)
+
+Power Query is a data transformation and data preparation tool that allows you to connect, combine, and refine data from various sources before loading it into Power BI for analysis.
+To load the dataset into Power BI, follow these steps:
+   - Click on “Get Data” in the Home tab.
+   - Select the appropriate data source (e.g., Excel, CSV, etc.).
+   - Choose the downloaded dataset file.
+   - Open the file and select the desired sheet or table.
+   - Apply any necessary data cleaning and transformation steps using Power Query.

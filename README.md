@@ -32,6 +32,7 @@ To load the dataset into Power BI, follow these steps:
    - 
 ## Adding Columns
 After cleaning and removing the unwanted column, I added the following Columns using the following DAX Formulas (See the Table below):
+        
          ``` 
             1. Day of Week = WEEKDAY('SMARTPHONE RETAIL OUTLET SALE DATA'[Date],2)
             2. Day of Week Name = SWITCH('SMARTPHONE RETAIL OUTLET SALE DATA'[Day of Week],
